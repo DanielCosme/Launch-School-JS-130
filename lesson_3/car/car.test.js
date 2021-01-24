@@ -26,6 +26,8 @@ describe("The Car class", () => {
     let car2 = new Car();
 
     expect(car).toEqual(car2);
+    //expect(car).toBe(car2);
+    expect(car).toStrictEqual(car2);
   });
 
   test('does not have doors', () => {
@@ -55,5 +57,4 @@ describe("The Car class", () => {
     expect(car.wheels).not.toBeUndefined();
   });
 });
-
 

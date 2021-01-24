@@ -34,7 +34,7 @@ describe('TodoList', () => {
     expect(list.toArray()).toEqual(arr);
   })
 
-  test('ivoking first will return the first todo item', () => {
+  test('Invoking first will return the first todo item', () => {
     expect(list.first()).toEqual(todo1);
   })
 

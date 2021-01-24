@@ -15,5 +15,5 @@ function stopCounting(id) {
 }
 
 let id = startCounting();
-setTimeout(stopCounting, 2000, id);
+setTimeout(stopCounting, 20000, id);
 

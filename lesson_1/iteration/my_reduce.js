@@ -10,7 +10,7 @@ function reduce(arr, callback, accumulator ,thisArg) {
     accumulator = arr[0];
   }
 
-  while(index < arr.length) {
+  while (index < arr.length) {
     accumulator = callback.call(thisArg, accumulator, arr[index], index, arr);
     index++;
   }
