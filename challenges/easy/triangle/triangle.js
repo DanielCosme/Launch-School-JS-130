@@ -1,4 +1,4 @@
-/* Write a program to determine whether a triangle is equilateral, isosceles, 
+/* Write a program to determine whether a triangle is equilateral, isosceles,
  or scalene.
 
 An equilateral triangle has all three sides the same length.
@@ -20,6 +20,7 @@ class Triangle {
 
       this.validate();
   }
+  let a = 'hello';
 
   kind() {
     let result = 'scalene';
