@@ -1,7 +1,6 @@
-# Advanced Javascript Topics
-## Intro
-This body of text is mainly me trying to explain to myself the topics of the course in
-my own words.
+# 139 Assessment Study-Guide
+## JavaScript Topics
+
 ### Hoisting
 #### What is hoisting?
 
